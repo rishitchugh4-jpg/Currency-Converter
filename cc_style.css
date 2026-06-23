@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(253, 197, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    border-radius: 7px;    
+}
+.heading{
+    text-align: center;
+    font-size: large;
+}
+.ph input{
+    height:40px;
+    width: 360px;
+    display: flex;
+    border: 0.5px solid gray;
+    border-radius: 6px;
+}
+.ph{
+    display: flex;
+    justify-content: center;
+}
+.amount_text{
+    margin-top: 40px;
+    margin-left: 17px;
+}
+.dropdown1,.dropdown2{
+    
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    margin-top: 30px;
+    
+}
+.dropdown2{
+    align-items: flex-end;
+    
+}
+
+.dd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 17px;
+}
+.icon{
+    font-size: 40px;
+    display: flex;
+    margin-top: 50px;   
+}
+.select-container1,.select-container2{
+    display: flex;
+}
+select{
+    height: 55px;
+    width: 64px;
+    margin-top: 3px;
+    border: 2px solid white;
+   
+}
+.select-container1,.select-container2{
+    border: 0.5px solid gray;
+    border-radius: 6px;    
+}
+.select-container1{
+    width: 130px;
+}
+.from p,.to p{
+    margin: 0px;
+
+}
+.to{
+    margin-right: 112px;
+}
+.info{
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 18px;
+}
+.convert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.convert button{
+    background-color: rgb(161, 11, 161);
+    height: 50px;
+    width: 350px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+}
+.convert button:hover{
+    background-color: purple;
+}
